@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.johnch18.bfg9k;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -7,7 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = Tags.MODID, version = Tags.VERSION, name = Tags.MODNAME, acceptedMinecraftVersions = "[1.7.10]")
-public class MyMod {
+public class BFG9KMod {
 
     private static Logger LOG = LogManager.getLogger(Tags.MODID);
 

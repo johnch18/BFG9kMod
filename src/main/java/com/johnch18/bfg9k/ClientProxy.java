@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.johnch18.bfg9k;
 
 import cpw.mods.fml.common.event.*;
 
