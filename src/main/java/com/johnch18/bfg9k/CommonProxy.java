@@ -1,5 +1,6 @@
 package com.johnch18.bfg9k;
 
+import com.johnch18.bfg9k.common.BFGItems;
 import cpw.mods.fml.common.event.*;
 
 public class CommonProxy {
@@ -11,6 +12,8 @@ public class CommonProxy {
 
         BFG9KMod.info(Config.greeting);
         BFG9KMod.info("I am " + Tags.MODNAME + " at version " + Tags.VERSION + " and group name " + Tags.GROUPNAME);
+
+        BFGItems.init();
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes."

@@ -1,5 +1,6 @@
 package com.johnch18.bfg9k;
 
+import com.johnch18.bfg9k.common.items.impl.BFG9KItem;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.*;
@@ -10,6 +11,9 @@ import org.apache.logging.log4j.Logger;
 public class BFG9KMod {
 
     private static Logger LOG = LogManager.getLogger(Tags.MODID);
+
+    @Mod.Instance(Tags.MODID)
+    public static BFG9KMod instance;
 
     @SidedProxy(clientSide= Tags.GROUPNAME + ".ClientProxy", serverSide=Tags.GROUPNAME + ".CommonProxy")
     public static CommonProxy proxy;
